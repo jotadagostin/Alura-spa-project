@@ -1,4 +1,4 @@
-@import '../abstract/variaveis.scss';
+@import '../abstract/variaveis';
 
 nav {
     text-align: center;
@@ -9,7 +9,7 @@ nav {
             a {
                 text-transform: uppercase;
                 text-decoration: none;
-                font-weight:bold;
+                font-weight: bold;
                 color: $cor-primaria;
                 &:hover {
                     border-bottom: 2px solid $cor-secundaria;
@@ -18,3 +18,4 @@ nav {
         }
     }
 }
+

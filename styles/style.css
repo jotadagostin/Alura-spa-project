@@ -1,3 +1,24 @@
 html, body {
   font-family: "Roboto", sans-serif;
-}/*# sourceMappingURL=style.css.map */
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #495371;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #74959A;
+}
+/*# sourceMappingURL=style.css.map */
