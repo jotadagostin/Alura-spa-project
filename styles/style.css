@@ -127,4 +127,65 @@ nav ul li a:hover {
   margin: 2rem;
   font-size: 1.76471rem;
 }
+
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background: white;
+}
+
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+
+#cupom .input:hover, #cupom .input:focus-within {
+  -webkit-box-shadow: 1px 1px 8px 1px #495371;
+          box-shadow: 1px 1px 8px 1px #495371;
+  outline: none;
+}
+
+#cupom button {
+  text-transform: uppercase;
+  margin-top: .75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #495371;
+  color: #74959A;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px #495371;
+  border-radius: 40px;
+}
+
+#cupom button:hover {
+  color: #495371;
+  background-color: #74959A;
+  border-color: #F1E0AC;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #495371;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: -webkit-gradient(linear, right top, left top, from(#495371), color-stop(#74959A), color-stop(#F1E0AC), to(#F1E0AC));
+  background: linear-gradient(to left, #495371, #74959A, #F1E0AC, #F1E0AC);
+}
+
+footer i {
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */
